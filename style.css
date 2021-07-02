@@ -1,0 +1,751 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+}
+
+.container{
+    margin: auto;
+}
+
+.header {
+    background: url("images/sahara.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    width: 840px;
+    margin-left: 560px;
+}
+
+.menu nav ul li{
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    transition: 500ms;
+    transition-property: color
+}
+
+.menu a:hover {
+    color: rgb(255, 102, 0);
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+} 
+
+h3 {
+    padding-top: 125px;
+    padding-left: 570px;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+h1 {
+    padding-top: 15px;
+    padding-left: 560px;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+hr {
+    width: 20%;
+    height: 2px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 1px;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, .25);
+}
+
+P {
+    width: 540px;
+    padding-left: 455px;
+    padding-top: 15px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: white;
+}
+
+.buttons{
+    padding-top: 75px;
+    padding-bottom: 85px;
+    padding-left: 470px;
+    display: inline-block;
+    width: 50%;
+    align-items: center;
+}
+
+.butt1, .butt2 {
+    border: 3px solid rgb(255, 102, 0);
+    border-radius: 2px;
+    font-size: 15px;
+    color: rgb(255, 102, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 250px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.blogContent h1 {
+    margin-top: 25px;
+    margin-left: 70px;
+    color: grey;
+}
+
+.blogContent h3 {
+    color: grey;
+    padding-top: 20px;
+    padding-left: 440px;
+    font-size: medium;
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+}
+
+.blogContent hr {
+    width: 20%;
+    height: 2px;
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 1px;
+    background-color: black;
+    margin-top: 35px;
+    margin-bottom: 55px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, .25);
+}
+
+.imgContainer img {
+    width: 24.5%;
+    padding-left: 3px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+.callback img {
+    width: 7%;
+    margin-top: 100px;
+    margin-left: 155px;
+    cursor: pointer;
+}
+
+.totalCounts p {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    padding: 0%;
+    display: inline-block;
+    width: 10%;
+    margin-top: 25px;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+.usersFeedback p{
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: bold;
+    font-weight: 700;
+    padding: 0;
+    display: inline-block;
+    width: 10%;
+    margin-top: 15px;
+    margin-left: 120px;
+    margin-bottom: 100px;
+}
+
+.priceContent {
+    margin-bottom: 100px;
+}
+
+.priceContent h1 {
+    color: grey;
+    margin-left: 50px;
+}
+
+.priceContent h3 {
+    color: grey;
+    padding-top: 20px;
+    padding-left: 420px;
+    font-size: medium;
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+}
+
+.priceContent hr {
+    width: 20%;
+    height: 2px;
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 1px;
+    background-color: black;
+    margin-top: 35px;
+    margin-bottom: 55px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, .25);
+}
+
+.prices {
+    display: inline-flex;
+    width: 100%;
+}
+
+.starter, .premium, .business {
+    border: 1px solid grey;
+    border-radius: 5px 5px 5px 5px;
+    width: 25%;
+    height: 75%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-left: 85px;
+}
+
+.starter, .premium, .business, p {
+    text-align: center;
+    color: black;
+}
+
+#starter, #premium, #business {
+    background-color: rgb(255, 102, 0);
+    color: black;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.starter, .premium, .business, #price {
+    background-color: slategray;
+}
+
+.priceButtons a {
+    border: 3px solid rgb(255, 102, 0);
+    border-radius: 2px;
+    font-size: 15px;
+    color: rgb(255, 102, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    background-color: white;
+}
+
+.teamContent {
+    background: url("images/computers.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.teamContent h1 {
+    padding-top: 100px;
+    font-size: larger;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.teamContent h3 {
+    color: white;
+    padding-top: 20px;
+    padding-left: 520px;
+    font-size: medium;
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+}
+
+.teamContent hr {
+    margin-top: 25px;
+}
+
+.contact h1 {
+    color: grey;
+    margin-left: 25px;
+}
+
+.contact h3 {
+    color: grey;
+    padding-top: 20px;
+    padding-left: 380px;
+    font-size: medium;
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+}
+
+.contact hr {
+    width: 20%;
+    height: 2px;
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 1px;
+    background-color: black;
+    margin-top: 35px;
+    margin-bottom: 55px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, .25);
+}
+
+.contacts {
+    width: 20%;
+    height: 20%;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    align-items: center;
+    display: inline-block;
+}
+
+.info {
+    margin-left: 225px;
+}
+
+.form {
+    width: 20%;
+    height: 20%;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 40px;
+    display: inline-block;
+    margin-left: 440px;
+}
+
+.form input {
+    margin-top: 50px;
+    outline: none;
+    border: none;
+    background: none;
+    align-items: center;
+}
+
+.submitButtons {
+    border: 3px solid rgb(255, 102, 0);
+    border-radius: 2px;
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 250px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.submitButtons a {
+    text-decoration: none;
+    color: rgb(255, 102, 0);
+}
+
+footer {
+    background-color: cadetblue;
+    width: 100%;
+}
+
+footer img {
+    height: 45px;
+    align-items: center;
+    margin: 10px;
+}
+
+footer p {
+    float: right;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 475px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: "montserrat", sans-serif;
+    }
+
+    .container {
+        margin: auto;
+        align-items: center;
+    }
+
+    .header {
+        background: center;
+    }
+    
+    .menu {
+        width: 100px;
+        height: 100px;
+        margin-left: 135px;
+    }
+    
+    .menu nav ul li{
+        display: inline-block;
+        margin: 10px;
+        text-decoration: none;
+        transition: 500ms;
+        transition-property: color
+    }
+    
+    .menu a:hover {
+        color: rgb(255, 102, 0);
+    }
+    
+    .menu a {
+        text-decoration: none;
+        font-family: Arial, sans-serif;
+    } 
+    
+    h3 {
+        padding-top: 185px;
+        padding-left: 145px;
+        font-family: Arial, sans-serif;
+        color: black;
+    }
+    
+    h1 {
+        padding-top: 15px;
+        padding-left: 145px;
+        font-family: Arial, sans-serif;
+        color: black;
+    }
+    
+    hr {
+        width: 50%;
+        height: 2px;
+        color: black;
+        outline: none;
+        border: none;
+        border-radius: 1px;
+        background-color: black;
+        margin-left: 170px;
+    }
+    
+    P {
+        width: 240px;
+        padding-left: 140px;
+        padding-top: 15px;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        color: white;
+        text-shadow: white;
+        font-size: larger;
+    }
+    
+    .buttons{
+        padding-top: 75px;
+        padding-bottom: 85px;
+        padding-left: 20px;
+        display: inline-block;
+        width: 50%;
+        align-items: center;
+    }
+    
+    .butt1, .butt2 {
+        border: 3px solid rgb(255, 102, 0);
+        border-radius: 2px;
+        font-size: 15px;
+        color: rgb(255, 102, 0);
+        text-decoration: none;
+        text-transform: uppercase;
+        width: 450px;
+        height: 60px;
+        background-color: brown;
+        display: inline-block;
+        text-align: center;
+        line-height: 60px;
+        font-family: Arial, sans-serif;
+        position: relative;
+        margin: 15px;
+    }
+
+    .blogContent {
+        height: 50%;
+    }
+    
+    .blogContent h1 {
+        margin-top: 25px;
+        margin-left: 30px;
+        color: grey;
+    }
+    
+    .blogContent h3 {
+        color: grey;
+        padding-top: 20px;
+        padding-left: 165px;
+        font-size: larger;
+        font-family: Arial, sans-serif;
+        font-weight: 300;
+    }
+    
+    .blogContent hr {
+        width: 50%;
+        height: 2px;
+        color: black;
+        outline: none;
+        border: none;
+        border-radius: 1px;
+        background-color: black;
+        margin-top: 35px;
+        margin-bottom: 55px;
+        box-shadow: 0 3px 20px rgba(0, 0, 0, .25);
+    }
+    
+    .imgContainer img {
+        width: 70%;
+        margin-left: 13px;
+        margin: 5px;
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+    }
+    
+    .callback img {
+        width: 14%;
+        padding-left: 5px;
+        cursor: pointer;
+        display: inline-flex;
+    }
+    
+    .totalCounts p {
+        color: black;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: larger;
+        padding: 0%;
+        display: inline-block;
+        width: 10%;
+        margin-top: 25px;
+        margin-left: 25px;
+        cursor: pointer;
+    }
+    
+    .usersFeedback p{
+        color: black;
+        font-family: Arial, sans-serif;
+        font-size: bold;
+        font-weight: 700;
+        padding: 0;
+        display: inline-block;
+        width: 2.5%;
+        margin-top: 15px;
+        margin-left: 40px;
+        margin-bottom: 100px;
+    }
+    
+    .priceContent {
+        margin-bottom: 100px;
+    }
+    
+    .priceContent h1 {
+        color: grey;
+        margin-left: 50px;
+    }
+    
+    .priceContent h3 {
+        color: grey;
+        padding-top: 20px;
+        padding-left: 115px;
+        font-size: larger;
+        font-family: Arial, sans-serif;
+        font-weight: 300;
+    }
+    
+    .priceContent hr {
+        width: 50%;
+        height: 2px;
+        color: black;
+        outline: none;
+        border: none;
+        border-radius: 1px;
+        background-color: black;
+        margin-top: 35px;
+        margin-bottom: 55px;
+    }
+    
+    .prices {
+        display: inline-flex;
+        width: 100%;
+    }
+    
+    .starter, .premium, .business {
+        border: 1px solid grey;
+        border-radius: 5px 5px 5px 5px;
+        width: 40%;
+        height: 75%;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin-left: 20px;
+    }
+    
+    .starter, .premium, .business, p {
+        text-align: center;
+        color: black;
+    }
+    
+    #starter, #premium, #business {
+        background-color: rgb(255, 102, 0);
+        color: black;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: large;
+    }
+    
+    .starter, .premium, .business, #price {
+        background-color: slategray;
+    }
+    
+    .priceButtons a {
+        border: 3px solid rgb(255, 102, 0);
+        border-radius: 2px;
+        font-size: 15px;
+        color: rgb(255, 102, 0);
+        text-decoration: none;
+        text-transform: uppercase;
+        width: 140px;
+        height: 60px;
+        display: inline-block;
+        text-align: center;
+        line-height: 60px;
+        font-family: Arial, sans-serif;
+        position: relative;
+        background-color: white;
+    }
+    
+    .teamContent {
+        background: url("images/computers.jpeg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 100px;
+        width: 555px;
+        height: 100%;
+        align-items: center;
+    }
+    
+    .teamContent h1 {
+        padding-top: 100px;
+        font-size: larger;
+        font-family: Arial, sans-serif;
+        font-weight: bolder;
+        margin-left: 65px;
+        color: rgb(255, 102, 0);
+    }
+    
+    .teamContent h3 {
+        color: rgb(255, 102, 0);
+        padding-top: 20px;
+        padding-left: 30px;
+        font-size: larger;
+        font-family: Arial, sans-serif;
+        font-weight: 300;
+    }
+    
+    .teamContent hr {
+        margin-top: 25px;
+        margin-left: 140px;
+    }
+    
+    .contact h1 {
+        color: grey;
+        margin-left: 65px;
+    }
+    
+    .contact h3 {
+        color: grey;
+        padding-top: 20px;
+        padding-left: 190px;
+        font-size: larger;
+        font-family: Arial, sans-serif;
+        font-weight: 300;
+    }
+    
+    .contact hr {
+        width: 50%;
+        height: 2px;
+        color: black;
+        outline: none;
+        border: none;
+        border-radius: 1px;
+        background-color: black;
+        margin-top: 35px;
+        margin-bottom: 55px;
+        margin-left: 190px;
+        box-shadow: 0 3px 20px rgba(0, 0, 0, .25);
+    }
+    
+    .contacts {
+        width: 50%;
+        height: 20%;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        align-items: center;
+        display: inline-block;
+        margin-left: 120px;
+    }
+
+    .info {
+        margin-left: 35px;
+    }
+    
+    .form {
+        width: 50%;
+        height: 20%;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        display: inline-block;
+        margin-left: 120px;
+    }
+    
+    .form input {
+        margin-top: 50px;
+        outline: none;
+        border: none;
+        background: none;
+        align-items: center;
+    }
+    
+    .submitButtons {
+        border: 3px solid rgb(255, 102, 0);
+        border-radius: 2px;
+        font-size: 15px;
+        text-transform: uppercase;
+        width: 250px;
+        height: 60px;
+        display: inline-block;
+        text-align: center;
+        line-height: 60px;
+        font-family: Arial, sans-serif;
+        position: relative;
+    }
+    
+    .submitButtons a {
+        text-decoration: none;
+        color: rgb(255, 102, 0);
+    }
+
+    footer {
+        background-color: white;
+        width: 100%;
+    }
+    
+    footer img {
+        height: 35px;
+        display: inline-block;
+        padding-left: 35px;
+    }
+}
